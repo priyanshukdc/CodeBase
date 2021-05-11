@@ -3,8 +3,8 @@ Tips and Tricks related to computer science &amp; technology. Codes for basic cs
 
 <h3>WhatsApp</h3>
 <h4>WhatsApp 15 Random Message (Selected Chat)</h4>
-JS Code:
+<a href="https://github.com/priyanshukdc/cse_tricks/blob/main/WhatsApp/BotMessagesToSelectedWhatsAppContact/botMsgWhatsappBySelectingSpecificChat.js>"JS Code</a>
 <br/>
-https://github.com/priyanshukdc/cse_tricks/blob/main/WhatsApp/BotMessagesToSelectedWhatsAppContact/botMsgWhatsappBySelectingSpecificChat.js
+
 <br/>
-Unpacked Chrome Extension v1: https://github.com/priyanshukdc/cse_tricks/tree/main/WhatsApp/BotMessagesToSelectedWhatsAppContact/UnpackedChromeExtension/v1
+<a href="https://github.com/priyanshukdc/cse_tricks/tree/main/WhatsApp/BotMessagesToSelectedWhatsAppContact/UnpackedChromeExtension/v1"Unpacked>Unpacked Chrome Extension v1</a>
