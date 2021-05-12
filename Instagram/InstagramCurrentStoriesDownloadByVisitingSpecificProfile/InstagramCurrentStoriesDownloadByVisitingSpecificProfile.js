@@ -41,8 +41,9 @@ if (instaDp == null)
 	instaDp = document.querySelector("img[alt$=' profile picture']");
 if (instaDp == null) {
 	window.alert("Some error occured. Try again.");
-}
-instaDp.onclick = function () {
+}else{
+	instaDp.onclick = function () {
 					setTimeout(liveDown,2500);
-					
-			};instaDp.click();
+			      	      };
+	instaDp.click();
+}
