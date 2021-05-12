@@ -4,7 +4,9 @@ Tips and Tricks related to computer science &amp; technology. Codes for basic cs
 <h3>YouTube</h3>
 <h4>Watch YouTube Video From Anywhere (Picture In Picture)</h4>
 Ever wished for video songs from youtube to play along while you code in Sublime, using hackerrank, codechef or while chatting on Instagram and WhatsApp Web? Just run this script when you play your next youtube video, make it full screen, click three dots and select Picture-In-Picture option. Enjoy.
+<br/>
 <strong>Added Benefit: </strong> Video seeker for YouTube Ads also available. Finish unskippable YouTube Ads in seconds.
+<br/>
 <a href="https://github.com/priyanshukdc/cse_tricks/blob/main/YouTube/YoutubeVideoAnywhereWithPictureInPicture/YoutubeVideoAnywhereWithPictureInPicture.js">JS Code</a>
 <br/>
 
@@ -23,6 +25,7 @@ Download anyone's Instagram DP with few lines of code by visiting their profile.
 <br/>
 <h4>Instagram Current Stories Downloader (By visiting specific profile)</h4>
 Visit someone's instagram profile and run script given below to download all images/videos stories in a blink.
+<br/>
 <a href="https://github.com/priyanshukdc/cse_tricks/blob/main/Instagram/InstagramCurrentStoriesDownloadByVisitingSpecificProfile/InstagramCurrentStoriesDownloadByVisitingSpecificProfile.js">JS Code</a>
 <br/>
 
