@@ -1,6 +1,7 @@
 /* Copyright (C) Priyanshu Kumar Chaudhary- All Rights Reserved
  * You may use, distribute and modify this code
- * if you keep this comments in file as it is.
+ * if you keep this comments in file as it is and
+ * mention below lines in visible part of your content & description
  * Title: “InstagramCurrentStoriesDownloadByVisitingSpecificProfile”
  * Creator: “Priyanshu Kumar Chaudhary"
  * Source: “Github :— https://github.com/priyanshukdc/cse_tricks/.
