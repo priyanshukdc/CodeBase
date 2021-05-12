@@ -10,3 +10,7 @@ Tips and Tricks related to computer science &amp; technology. Codes for basic cs
 <h4>Instagram Profile Pic Downloader (By visiting specific profile)</h4>
 <a href="https://github.com/priyanshukdc/cse_tricks/blob/main/Instagram/InstagramDpDownloadByVisitingSpecificProfile/instagramDpDownloadByVisitingSpecificProfile.js">JS Code</a>
 <br/>
+<h4>Instagram Current Stories Downloader (By visiting specific profile)</h4>
+<a href="https://github.com/priyanshukdc/cse_tricks/blob/main/Instagram/InstagramCurrentStoriesDownloadByVisitingSpecificProfile/InstagramCurrentStoriesDownloadByVisitingSpecificProfile.js">JS Code</a>
+<br/>
+
