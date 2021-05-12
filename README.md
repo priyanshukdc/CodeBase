@@ -5,3 +5,8 @@ Tips and Tricks related to computer science &amp; technology. Codes for basic cs
 <h4>WhatsApp 15 Random Message (Selected Chat)</h4>
 <a href="https://github.com/priyanshukdc/cse_tricks/blob/main/WhatsApp/BotMessagesToSelectedWhatsAppContact/botMsgWhatsappBySelectingSpecificChat.js">JS Code</a>
 <br/>
+
+<h3>Instagram</h3>
+<h4>Instagram Profile Pic Downloader (By visiting specific profile)</h4>
+<a href="https://github.com/priyanshukdc/cse_tricks/blob/main/Instagram/InstagramDpDownloadByVisitingSpecificProfile/instagramDpDownloadByVisitingSpecificProfile.js">JS Code</a>
+<br/>
