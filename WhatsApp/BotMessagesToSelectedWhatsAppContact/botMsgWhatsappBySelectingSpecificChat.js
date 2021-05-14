@@ -19,5 +19,5 @@ for(i=1;i<=numOfMsgs;i++){
 			       	    	detail : 1   
 			             }); 
         msgBox.dispatchEvent(event);
-        document.querySelectorAll("[data-icon='send']")[0].click();
+        document.querySelector("[data-icon='send']").click();
 }
