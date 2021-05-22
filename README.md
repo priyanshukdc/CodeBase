@@ -24,7 +24,7 @@ This code will help you send 15 (value for variable noOfMsgs can be changed) to 
 <h5>Instagram Profile Pic Downloader (By visiting specific profile)</h5>
 Download anyone's Instagram DP with few lines of code by visiting their profile.
 <br/>
-<a href="https://github.com/priyanshukdc/cse_tricks/blob/main/Instagram/InstagramDpDownloadByVisitingSpecificProfile/instagramDpDownloadByVisitingSpecificProfile.js">JS Code</a>
+<a href="../00733211a46529f2a31833f3a2ce0615473d701e/Automation/JavaScript/Instagram/InstagramDpDownloadByVisitingSpecificProfile/instagramDpDownloadByVisitingSpecificProfile.js">JS Code</a>
 <br/>
 <h4>Instagram Current Stories Downloader (By visiting specific profile)</h4>
 Visit someone's instagram profile and run script given below to download all images/videos stories in a blink.
