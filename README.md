@@ -10,7 +10,7 @@ Ever wished for video songs from youtube to play along while you code in Sublime
 <br/>
 <strong>Added Benefit: </strong> Video seeker for YouTube Ads also available. Finish unskippable YouTube Ads in seconds.
 <br/>
-<a href="https://github.com/priyanshukdc/cse_tricks/blob/main/YouTube/YoutubeVideoAnywhereWithPictureInPicture/YoutubeVideoAnywhereWithPictureInPicture.js">JS Code</a>
+<a href="../d07730cdfa15b3411ee1887ed96eaddeb61118b5/Automation/JavaScript/YouTube/YoutubeVideoAnywhereWithPictureInPicture/YoutubeVideoAnywhereWithPictureInPicture.js">JS Code</a>
 <br/>
 
 <h4>WhatsApp</h4>
