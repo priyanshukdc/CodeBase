@@ -4,7 +4,7 @@
  * mention below lines in visible part of your content & description
  * Title: “InstagramCurrentStoriesDownloadByVisitingSpecificProfile”
  * Creator: “Priyanshu Kumar Chaudhary"
- * Source: “Github :— https://github.com/priyanshukdc/cse_tricks/.
+ * Source: “Github :— https://github.com/priyanshukdc/CodeBase/.
  * Follow @thecodeattorney on Instagram for more such stuff. 
  */
 pause=false;
