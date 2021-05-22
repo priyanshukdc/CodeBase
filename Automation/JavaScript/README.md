@@ -1,6 +1,5 @@
-<h2>Automation</h2>
-Codes for automation on popular websites like Instagram, Web Whatsapp, Facebook etc. If you found some code useful, don't forget to give it a star. It will push me harder to provide more such code to you. Cheers!!
 <h3>JavaScript</h3>
+All the automation code in this folder are in pure JS.
 <h4>YouTube</h4>
 <h5>Watch YouTube Video From Anywhere (Picture In Picture)</h5>
 Ever wished for video songs from youtube to play along while you code in Sublime, using hackerrank, codechef or while chatting on Instagram and WhatsApp Web? Just run this script when you play your next youtube video, make it full screen, click three dots and select Picture-In-Picture option. Enjoy.
