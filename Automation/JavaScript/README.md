@@ -1,5 +1,5 @@
 <h3>JavaScript</h3>
-All the automation code in this folder are in pure JS.
+Automation on Youtube, Instagram, Facebook etc using Javascript.
 <h4>YouTube</h4>
 <h5>Watch YouTube Video From Anywhere (Picture In Picture)</h5>
 Ever wished for video songs from youtube to play along while you code in Sublime, using hackerrank, codechef or while chatting on Instagram and WhatsApp Web? Just run this script when you play your next youtube video, make it full screen, click three dots and select Picture-In-Picture option. Enjoy.
