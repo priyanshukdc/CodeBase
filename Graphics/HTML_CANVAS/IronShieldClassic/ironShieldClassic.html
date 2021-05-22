@@ -1,0 +1,52 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<img style="display: none" id="iron_heart_classic" src="iron_heart_classic.png"/>
+		<canvas id="shield" width=600 height=600 style="border: 1px solid #000000">
+		</canvas>
+		<script>
+			var can=document.getElementById('shield');
+			var ctx=can.getContext('2d');
+
+			var x=150;
+
+			function red(){
+				ctx.beginPath();                ctx.fillStyle="#d32026";
+				ctx.shadowColor="#d32026";      ctx.shadowBlur=20;
+				ctx.fillRect(x,255,43,530-255); ctx.closePath();
+				x+=43;
+			}
+
+			function white(){
+				ctx.beginPath();                ctx.fillStyle="#e3e0dd";
+				ctx.shadowColor="#e3e0dd";      ctx.shadowBlur=5;
+				ctx.fillRect(x,255,43,530-255); ctx.closePath();
+				x+=43;
+			}
+
+			var iron_heart_classic_img=document.getElementById('iron_heart_classic');
+			iron_heart_classic_img.onload=function(){
+				ctx.beginPath();
+				ctx.moveTo(300,110);
+				ctx.bezierCurveTo(260,110,220,150,150,140);
+				ctx.bezierCurveTo(140,210,160,440,300,490);
+				ctx.bezierCurveTo(440,440,460,210,450,140);
+				ctx.bezierCurveTo(380,150,340,110,300,110);
+				ctx.fillStyle="#22326d"; ctx.shadowColor='#22326d';
+				ctx.shadowBlur=1;        ctx.fill();		
+				ctx.closePath();
+
+				ctx.globalCompositeOperation="source-atop";
+				red(); white(); red(); white();	red(); white();	red();
+
+				ctx.globalCompositeOperation="source-over";
+				ctx.shadowColor="#e3e0dd";
+				ctx.shadowBlur=20;
+				ctx.drawImage(iron_heart_classic_img,225,135,150,100);
+				ctx.drawImage(iron_heart_classic_img,160,160,90,60);
+				ctx.drawImage(iron_heart_classic_img,350,160,90,60);
+			};
+		</script>
+	</body>
+</html>
