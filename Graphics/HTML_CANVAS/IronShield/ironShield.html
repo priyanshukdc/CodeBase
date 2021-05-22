@@ -8,58 +8,53 @@
  * Follow @thecodeattorney on Instagram for more such stuff. 
  */
 <html>
-<head>
+	<head>
 	</head>
-
 	<body>
-		<img  style="display: none" id="iron_heart" src="iron_heart.png" width=80 height=80/>
+		<img  style="display: none" id="iron_heart" src="iron_heart.png"/>
 		<canvas id="shield" width=600 height=600 style="border: 1px solid #000000">
 		</canvas>
 		<script>
 			var can=document.getElementById('shield');
 			var ctx=can.getContext('2d');
-			
-			ctx.beginPath();
-			ctx.fillRect(0,0,600,600);
-			ctx.closePath();
-
 			var iron_heart_img=document.getElementById('iron_heart');
 			iron_heart_img.onload=function(){
-				ctx.drawImage(iron_heart_img,
-					250,250);
+				ctx.beginPath();
+				ctx.fillRect(0,0,600,600);
+				ctx.closePath();
+
+				ctx.beginPath();
+				ctx.arc(300,300,125,0*Math.PI,2*Math.PI);
+				ctx.shadowColor="#b0211b";
+				ctx.shadowBlur=20;
+				ctx.fillStyle='#b0211b';
+				ctx.fill();
+				ctx.closePath();
+
+				ctx.beginPath();
+				ctx.arc(300,300,100,0*Math.PI,2*Math.PI);
+				ctx.shadowColor="#e6e7e9";
+				ctx.shadowBlur=20;
+				ctx.fillStyle='#e6e7e9';
+				ctx.fill();
+				ctx.closePath();
+
+				ctx.beginPath();	
+				ctx.arc(300,300,75,0*Math.PI,2*Math.PI);
+				ctx.shadowColor="#b0211b";
+				ctx.shadowBlur=20;
+				ctx.fillStyle='#b0211b';
+				ctx.fill();
+				ctx.closePath();
+
+				ctx.beginPath();
+				ctx.arc(300,300,48,0*Math.PI,2*Math.PI);
+				ctx.fillStyle="#004ba1";
+				ctx.fill();
+				ctx.closePath();
+
+				ctx.drawImage(iron_heart_img,250,250);
 			}
-			
-			ctx.beginPath();
-			ctx.arc(300,300,125,0*Math.PI,2*Math.PI);
-			ctx.shadowColor="#b0211b";
-			ctx.shadowBlur=20;
-			ctx.fillStyle='#b0211b';
-			ctx.fill();
-			ctx.closePath();
-
-			ctx.beginPath();
-			ctx.arc(300,300,100,0*Math.PI,2*Math.PI);
-			ctx.shadowColor="#e6e7e9";
-			ctx.shadowBlur=20;
-			ctx.fillStyle='#e6e7e9';
-			ctx.fill();
-			ctx.closePath();
-
-			ctx.beginPath();
-			ctx.arc(300,300,75,0*Math.PI,2*Math.PI);
-			ctx.shadowColor="#b0211b";
-			ctx.shadowBlur=20;
-			ctx.fillStyle='#b0211b';
-			ctx.fill();
-			ctx.closePath();
-
-			ctx.beginPath();
-			ctx.arc(300,300,48,0*Math.PI,2*Math.PI);
-			ctx.fillStyle="#004ba1";
-			ctx.fill();
-			ctx.closePath();
-
-
 		</script>
 	</body>
 </html>
