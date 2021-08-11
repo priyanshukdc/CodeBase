@@ -1,0 +1,153 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+    body {
+  background: #ac474b;
+  font-family: 'Montserrat', sans-serif;
+}   
+
+.search-section {
+    background-color: #ff908b91;
+    opacity: 0.75;
+    margin-top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.span-dark {
+    font-weight: 900;
+    font-family: 'Segoe UI','proxima-nova','Tangerine' , serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.chosen-value {
+    font-family: 'Segoe UI','Inter';
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    height: 5rem;
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: #ff908b;
+    border: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+    top: 0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+.chosen-value {
+    /* position: relative; */
+    
+}
+
+select[size] {
+    height: auto;
+}
+
+
+ input, select{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+        </style>
+</head><body>
+<div class="search-section">
+                                <center>
+                                    <span class="span-dark">India Locations<br>(State-Wise)</span>
+                                    <select size="3" class="chosen-value" name="state_val" id="state_val">
+                    
+                        <option value="1">Andaman and Nicobar Islands</option>
+                        
+                        <option value="2">Andhra Pradesh</option>
+                        
+                        <option value="3">Arunachal Pradesh</option>
+                        
+                        <option value="4">Assam</option>
+                        
+                        <option value="5">Bihar</option>
+                        
+                        <option value="6">Chandigarh</option>
+                        
+                        <option value="7">Chhattisgarh</option>
+                        
+                        <option value="8">Dadra and Nagar Haveli</option>
+                        
+                        <option value="9">Daman and Diu</option>
+                        
+                        <option value="10">Delhi</option>
+                        
+                        <option value="11">Goa</option>
+                        
+                        <option value="12">Gujarat</option>
+                        
+                        <option value="13">Haryana</option>
+                        
+                        <option value="14">Himachal Pradesh</option>
+                        
+                        <option value="15">Jammu and Kashmir</option>
+                        
+                        <option value="16">Jharkhand</option>
+                        
+                        <option value="17">Karnataka</option>
+                        
+                        <option value="18">Kerala</option>
+                        
+                        <option value="19">Lakshadweep</option>
+                        
+                        <option value="20">Madhya Pradesh</option>
+                        
+                        <option value="21">Maharashtra</option>
+                        
+                        <option value="22">Manipur</option>
+                        
+                        <option value="23">Meghalaya</option>
+                        
+                        <option value="24">Mizoram</option>
+                        
+                        <option value="25">Nagaland</option>
+                        
+                        <option value="26">Odisha</option>
+                        
+                        <option value="27">Puducherry</option>
+                        
+                        <option value="28">Punjab</option>
+                        
+                        <option value="29">Rajasthan</option>
+                        
+                        <option value="30">Sikkim</option>
+                        
+                        <option value="31">Tamil Nadu</option>
+                        
+                        <option value="32">Tripura</option>
+                        
+                        <option value="33">Uttar Pradesh</option>
+                        
+                        <option value="34">Uttarakhand</option>
+                        
+                        <option value="35">West Bengal</option>
+                        
+                                    </select>
+                                    <input class="span-dark" style="margin-top:30px; width: 50%;" type="button" value="Search" name="" onclick="state_info();">
+                  <script type="text/javascript">
+                    var state_ele=document.getElementById('state_val');
+                            state_ele[1].selected="selected";
+                  </script>
+                  <script type="text/javascript">
+                     function state_info(){
+                         var state_ele=document.getElementById('state_val'); 
+                      alert('Selected state is : '+ state_ele[state_ele.selectedIndex].text+'\n'+'Value corresponding it is : ' + state_ele[state_ele.selectedIndex].value);
+                     }
+                  </script>
+       
+                                </center>
+                            </div>
+
+                        </body></html>
