@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Picture in Picture (Youtube)",
+  "description": "Use Picture In Picture to learn efficiently while coding. You can use it for other purposes too.",
+  "version": "1.0",
+   "permissions": ["activeTab"],  
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "pip.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
